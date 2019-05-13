@@ -1,4 +1,8 @@
+@import 'size';
+
 .btn {
+    @include size(14px,11px,37px,10.8px,37.1px);
+
     margin-right: 30px;
     padding: 9px 37px;
     border: none;
@@ -13,18 +17,15 @@
     cursor: pointer;
 
     &.medium {
-        padding: 14px 46px;
-        font-size: 18px;
+        @include size(14px, 46px, 14px, 46px, 18px);
     }
 
     &.large {
-        padding: 23px 93px 23px 94px;
-        font-size: 26px;
+        @include size(23px, 93px, 23px, 94px, 26px);
     }
 
     &.xlarge {
-        padding: 27px 102px 27px 103px;
-        font-size: 36px;
+        @include size(27px, 102px, 27px, 103px, 36px);
     }
 
     &:hover {
