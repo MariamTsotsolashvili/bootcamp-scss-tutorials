@@ -1,7 +1,7 @@
-
 @import 'reset';
 @import 'base';
 @import 'pallete';
+@import 'components/btn/index.scss';
 
 .row {
     display: flex;
@@ -9,4 +9,3 @@
     justify-content: center;
     margin-top: 50px;
 }
-
