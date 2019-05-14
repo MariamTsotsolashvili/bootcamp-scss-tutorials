@@ -1,0 +1,5 @@
+$pallete:(1:#21C2F8, 2:#FFFFFF, 3:#222533);
+
+@function color($inx) {
+    @return map-get($pallete,$inx);
+}
